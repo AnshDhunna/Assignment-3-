@@ -31,7 +31,7 @@ namespace TestRunner
 		{
 			const char player1[] = "rock";
 			const char player2[] = "rock";
-			const char* expected = "draw";
+			const char* expected = "Draw";
 			Assert::AreEqual(expected, Result(player1, player2));
 		}
 
